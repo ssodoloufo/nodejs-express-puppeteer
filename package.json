@@ -1,0 +1,17 @@
+{
+  "name": "express-puppeteer-pdf",
+  "version": "1.0.0",
+  "description": "Test of Puppeteer",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ssodoloufo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.13.0"
+  }
+}

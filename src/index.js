@@ -1,3 +1,3 @@
-import App from './app.js';
+import Application from './app/application.js';
 
-App.main();
+Application.main();

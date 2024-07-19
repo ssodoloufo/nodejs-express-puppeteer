@@ -1,13 +1,14 @@
 import express from 'express';
 import conversionController from './controllers/conversion.js';
 
-const PORT = 5555
+const PORT = 3000
 
-class App {
+class Application {
+  
   static async main() {
     const app = express();
     
-    app.use('/conversions', conversionController)
+    app.use('/pdf', conversionController)
 
     app.listen(PORT, () => {
       console.log(`Server is running on port http://localhost:${PORT}`);
@@ -15,5 +16,4 @@ class App {
   }
 }
 
-export default App;
-
+export default Application;
